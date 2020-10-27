@@ -1,0 +1,11 @@
+---
+layout: default
+title: Publications
+---
+<div class="blurb">
+	<h3>Publications</h3>
+  <ul>
+  <li>S. Kim, B. Lee, J. Lee, "Tight Security Bounds for Double-Block Hash-then-Sum MACs", In: A. Canteaut, Y. Ishai (eds) Advances in Cryptology – EUROCRYPT 2020, Lecture Notes in Computer Science, vol 12105, Springer. 
+  </li>
+  </ul>
+</div><!-- /.blurb -->
