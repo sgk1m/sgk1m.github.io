@@ -4,6 +4,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #0A192F; /* Dark blue background */
     color: #fff; /* White text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, .content-container, footer {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
 }
 
 header, footer {
@@ -47,6 +56,7 @@ nav a:hover, footer a:hover {
     float: left;
     margin-right: 20px;
     border-radius: 50%; /* Circular profile image */
+    margin-bottom: 20px; /* Ensure space before the footer */
 }
 
 footer ul {
