@@ -57,6 +57,9 @@ nav a:hover, footer a:hover {
     margin-right: 20px;
     border-radius: 50%; /* Circular profile image */
     margin-bottom: 20px; /* Ensure space before the footer */
+    width: 200px; /* Fixed width for the image */
+    max-width: 100%; /* Ensures image does not overflow its container */
+    height: auto; /* Maintain aspect ratio */
 }
 
 footer ul {
@@ -76,8 +79,9 @@ footer ul li {
     }
 
     .profile-image {
-        width: 100%;
-        margin: 0 0 20px 0;
+        float: none;
+        display: block;
+        margin: 0 auto 20px; /* Center image on small screens */
     }
 }
 
