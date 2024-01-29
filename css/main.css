@@ -80,7 +80,7 @@ footer ul li {
     }
 
     .profile-image {
-        float: none;
+        float: left;
         display: block;
         margin: 0 auto 20px; /* Center image on small screens */
     }
@@ -93,5 +93,11 @@ footer ul li {
 
     nav ul li, footer ul li {
         margin: 10px 0;
+    }
+    .profile-image {
+        float: left;
+        display: block;
+        margin: 0 auto 20px; /* Center image on small screens */
+        width: 150px; /* Smaller size for the image on smaller screens */
     }
 }
