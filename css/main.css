@@ -110,4 +110,7 @@ footer ul li {
         margin: 0 auto 20px; /* Center image on small screens */
         width: 150px; /* Smaller size for the image on smaller screens */
     }
+    .blurb {
+        text-align: center; /* Center text for smaller screens */
+    }
 }
