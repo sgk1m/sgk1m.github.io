@@ -28,6 +28,16 @@ header nav, .main, footer {
     padding: 0 20px;
 }
 
+.container a, .main a {
+    color: #4FD1C5; /* Lighter shade for links, like cyan */
+    text-decoration: none;
+}
+
+.container a:hover, .main a:hover {
+    text-decoration: underline;
+    color: #76E4F7; /* Even lighter shade for hover effect */
+}
+
 nav ul {
     padding: 0;
     list-style: none;
