@@ -1,14 +1,22 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: #0A192F; /* Dark blue background */
     color: #fff; /* White text color */
 }
 
-header {
-    background-color: #020c1b; /* Darker blue for header */
-    padding: 10px 5%;
+header, footer {
+    background-color: #020c1b; /* Darker blue for header and footer */
+    color: #64ffda; /* Bright accent color for text */
+    padding: 20px 0;
     text-align: center;
+}
+
+header nav, .main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 nav ul {
@@ -32,23 +40,13 @@ nav a:hover, footer a:hover {
 }
 
 .main {
-    width: 80%;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
+    width: 100%;
 }
 
 .profile-image {
     float: left;
     margin-right: 20px;
     border-radius: 50%; /* Circular profile image */
-}
-
-footer {
-    background-color: #020c1b;
-    color: #64ffda;
-    text-align: center;
-    padding: 20px 0;
 }
 
 footer ul {
@@ -62,12 +60,18 @@ footer ul li {
     margin: 0 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+    header nav, .main, footer {
+        padding: 0 10px;
+    }
+
     .profile-image {
         width: 100%;
         margin: 0 0 20px 0;
     }
+}
 
+@media (max-width: 768px) {
     nav ul, footer ul {
         flex-direction: column;
     }
