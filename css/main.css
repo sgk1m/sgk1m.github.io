@@ -59,7 +59,7 @@ nav a:hover, footer a:hover {
     border-radius: 50%; /* Circular profile image */
     margin-bottom: 20px; /* Ensure space before the footer */
     width: 200px; /* Fixed width for the image */
-    max-width: 100%; /* Ensures image does not overflow its container */
+    max-width: 30%; /* Ensures image does not overflow its container */
     height: auto; /* Maintain aspect ratio */
 }
 
