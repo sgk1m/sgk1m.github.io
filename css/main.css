@@ -40,12 +40,13 @@ nav ul li {
 }
 
 nav a, footer a {
-    color: #64ffda; /* Bright accent color for links */
+    color: #8ed1fc; /* Bright accent color for links */
     text-decoration: none;
 }
 
 nav a:hover, footer a:hover {
     text-decoration: underline;
+    color: #cae9ff;
 }
 
 .main {
