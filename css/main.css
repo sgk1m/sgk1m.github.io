@@ -9,12 +9,17 @@ body {
     align-items: center;
 }
 
-header, .content-container, footer {
+.wrapper {
+    background-color: #0A192F; /* Navy background for the central wrapper */
+    width: 100%;
     max-width: 1200px;
+}
+
+header, .content-container, footer {
     width: 100%;
     padding: 0 20px;
-    background-color: #0A192F; /* Dark blue background for the content area */
 }
+
 
 header, footer {
     background-color: #020c1b; /* Darker blue for header and footer */
