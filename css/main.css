@@ -1,25 +1,26 @@
-body {
+body, html {
     margin: 0;
     padding: 0;
+    height: 100%; /* Ensure body and html take full viewport height */
     font-family: 'Open Sans', sans-serif;
     background-color: #333; /* Grayish background for the entire page */
-    color: #fff;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center; /* Center the wrapper horizontally */
 }
 
 .wrapper {
     background-color: #0A192F; /* Navy background for the central wrapper */
     width: 100%;
     max-width: 1200px;
+    min-height: 100vh; /* Ensure wrapper takes at least full viewport height */
+    display: flex;
+    flex-direction: column; /* Stack header, content, and footer */
 }
 
 header, .content-container, footer {
     width: 100%;
     padding: 0 20px;
 }
-
 
 header, footer {
     background-color: #020c1b; /* Darker blue for header and footer */
