@@ -20,20 +20,20 @@ body, html {
 
 header, .content-container, footer {
     width: 100%;
-    padding: 0 0px;
+    padding: 20px 20px;
 }
 
 header, footer {
     background-color: #020c1b; /* Darker blue for header and footer */
     color: #64ffda; /* Bright accent color for text */
-    padding: 0px 0;
+    padding: 20px 20px;
     text-align: center;
 }
 
 header nav, .main, footer {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px 20px;
 }
 
 .container a, .main a {
