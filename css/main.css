@@ -19,6 +19,10 @@ body, html {
     align-items: stretch; /* Stretch children to fill the width */
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 header, .content-container, footer {
     width: 100%;
     padding: 0 20px;
