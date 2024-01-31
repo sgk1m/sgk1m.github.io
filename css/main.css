@@ -112,7 +112,7 @@ footer ul li {
         text-align: center; /* Center text for smaller screens */
     }
 
-        body, html {
+    body, html, header li, footer li {
         font-size: 18px; /* Increase base font size for smaller screens */
         line-height: 1.6; /* Adjust line height for better readability */
     }
