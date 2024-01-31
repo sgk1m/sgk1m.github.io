@@ -13,7 +13,7 @@ body, html {
     background-color: #0A192F; /* Navy background for the wrapper */
     width: 100%;
     max-width: 1200px; /* Max width for the wrapper */
-    min-height: 100vh; /* Ensure wrapper takes at least full viewport height */
+    min-height: 40vh; /* Ensure wrapper takes at least full viewport height */
     display: flex;
     flex-direction: column; /* Stack header, content, and footer */
     align-items: stretch; /* Stretch children to fill the width */
