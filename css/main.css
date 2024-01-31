@@ -20,33 +20,26 @@ body, html {
 }
 
 header, .content-container, footer {
-    width: 100%; /* Full width within the wrapper */
+    width: 100%;
     padding: 0 20px;
 }
 
-
-
 header, footer {
-    background-color: #020c1b; /* Darker blue for header and footer */
-    color: #64ffda; /* Bright accent color for text */
+    background-color: #020c1b;
+    color: #64ffda;
     padding: 20px 0;
     text-align: center;
 }
 
-header nav, .main, footer {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.container a, .main a {
-    color: #4FD1C5; /* Lighter shade for links, like cyan */
+/* Unified link styles */
+a {
+    color: #4FD1C5;
     text-decoration: none;
 }
 
-.container a:hover, .main a:hover {
+a:hover {
     text-decoration: underline;
-    color: #76E4F7; /* Even lighter shade for hover effect */
+    color: #76E4F7;
 }
 
 nav ul {
@@ -58,16 +51,6 @@ nav ul {
 
 nav ul li {
     margin: 0 20px;
-}
-
-nav a, footer a {
-    color: #8ed1fc; /* Bright accent color for links */
-    text-decoration: none;
-}
-
-nav a:hover, footer a:hover {
-    text-decoration: underline;
-    color: #cae9ff;
 }
 
 .main {
