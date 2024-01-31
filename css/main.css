@@ -111,4 +111,23 @@ footer ul li {
     .blurb {
         text-align: center; /* Center text for smaller screens */
     }
+
+        body, html {
+        font-size: 18px; /* Increase base font size for smaller screens */
+        line-height: 1.6; /* Adjust line height for better readability */
+    }
+
+    header h1, .content-container h2 {
+        font-size: 24px; /* Increase heading font sizes */
+        line-height: 1.4;
+    }
+
+    nav ul li a, footer ul li a {
+        font-size: 16px; /* Adjust navigation link sizes */
+    }
+
+    .main p, .blurb p {
+        font-size: 18px; /* Increase paragraph text size */
+        line-height: 1.6;
+    }
 }
