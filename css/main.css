@@ -23,7 +23,12 @@ body, html {
     box-sizing: border-box;
 }
 
-header, .content-container, footer {
+.content-container,{
+    width: 100%;
+    padding: 0 0px;
+}
+
+header, footer {
     width: 100%;
     padding: 0 20px;
 }
