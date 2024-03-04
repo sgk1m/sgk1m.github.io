@@ -17,7 +17,6 @@ body, html {
     display: flex;
     flex-direction: column; /* Stack header, content, and footer */
     align-items: stretch; /* Stretch children to fill the width */
-    padding: 0 20px;
 }
 
 *, *::before, *::after {
